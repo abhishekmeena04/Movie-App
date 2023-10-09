@@ -1,0 +1,50 @@
+.main {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  color: white;
+  /* background-image: url(https://imgs.search.brave.com/JIf-VoWPnqumJYar-8vSGt7acdgsA7llK_55E1xaGT4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM3/MjY4MTU2OS9waG90/by9oYW5kcy1ob2xk/aW5nLWEtZmlsbS1z/bGF0ZS1kaXJlY3Rp/bmctYS1tb3ZpZS1z/Y2VuZS5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9OUJkaFB2/cEZMZ216R0Y0NEFV/d1pVS2FRVzRRM3Rj/bEFVY0UzWnZhYzhJ/WT0); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.video {
+  height: 100%;
+  width: 100%;
+}
+.main .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0)
+  );
+}
+
+.centerLinks {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 4vmax;
+  align-items: center;
+  font-size: 2.9vmax;
+  padding: 3vmax;
+}
+
+.centerLinks li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footerText {
+  position: relative;
+  z-index: 1;
+  font-size: 1.2vmax;
+  font-family: "Roboto";
+  padding-bottom: 3vmax;
+}
